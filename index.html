@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ankur Kumar Pandey | Data Engineer | Netherlands</title>
+  <meta name="description" content="Data Engineer with 5+ years experience in Azure Data Factory, Databricks & ADLS Gen2. Based in Almere, Netherlands." />
+
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      font-family: 'Inter', system-ui, sans-serif;
+      background-color: #f8fafc;
+      color: #334155;
+    }
+
+    .hero-section {
+      background: linear-gradient(135deg, #1e293b 0%, #334155 100%);
+      color: white;
+      padding: 4rem 0;
+    }
+
+    .profile-img {
+      width: 160px;
+      height: 160px;
+      object-fit: cover;
+      border: 4px solid rgba(255,255,255,0.25);
+    }
+
+    .social-btn {
+      width: 48px;
+      height: 48px;
+      transition: all 0.25s ease;
+    }
+
+    .social-btn:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+    }
+
+    .section-title {
+      position: relative;
+      display: inline-block;
+      margin-bottom: 1.8rem;
+      font-weight: 700;
+      color: #1e293b;
+    }
+
+    .section-title::after {
+      content: '';
+      position: absolute;
+      bottom: -8px;
+      left: 0;
+      width: 45px;
+      height: 3.5px;
+      background: #3b82f6;
+      border-radius: 2px;
+    }
+
+    .card {
+      border: 1px solid #e2e8f0;
+      transition: all 0.2s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 10px 20px rgba(0,0,0,0.06);
+    }
+
+    .badge-skill {
+      background-color: #eff6ff;
+      color: #1e40af;
+      font-weight: 500;
+    }
+
+    .timeline-item {
+      border-left: 3px solid #3b82f6;
+      padding-left: 1.2rem;
+      margin-bottom: 1.8rem;
+    }
+
+    footer {
+      background-color: #1e293b;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ========== HERO SECTION ========== -->
+  <header class="hero-section">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-3 text-center text-md-start mb-4 mb-md-0">
+          <!-- Replace with your photo -->
+          <img src="profile_pic.jpg" alt="Ankur Kumar Pandey" class="rounded-circle profile-img shadow">
+        </div>
+
+        <div class="col-md-9">
+          <h1 class="display-5 fw-bold mb-1">Ankur Kumar Pandey</h1>
+          <p class="fs-4 text-info mb-2">Data Engineer</p>
+          <p class="mb-3 opacity-75">
+            <i class="bi bi-geo-alt"></i> Almere, Netherlands · Open to opportunities
+          </p>
+          <p class="mb-4 opacity-75" style="max-width: 540px;">
+            5+ years building scalable, metadata-driven data pipelines on Microsoft Azure for a major European enterprise.
+          </p>
+
+          <!-- Icon Buttons -->
+          <div class="d-flex gap-3">
+            <!-- LinkedIn - Replace with your real URL -->
+            <a href="https://www.linkedin.com/in/ankur-pandey-331077175/" 
+               target="_blank" 
+               class="btn btn-primary rounded-circle social-btn d-flex align-items-center justify-content-center"
+               title="LinkedIn">
+              <i class="bi bi-linkedin fs-5"></i>
+            </a>
+
+            <!-- GitHub -->
+            <a href="https://github.com/ankurp187" 
+               target="_blank" 
+               class="btn btn-dark rounded-circle social-btn d-flex align-items-center justify-content-center"
+               title="GitHub">
+              <i class="bi bi-github fs-5"></i>
+            </a>
+
+            <!-- Email -->
+            <a href="mailto:ankurp187@gmail.com" 
+               class="btn btn-danger rounded-circle social-btn d-flex align-items-center justify-content-center"
+               title="Email">
+              <i class="bi bi-envelope-fill fs-5"></i>
+            </a>
+			
+			<!-- Download Resume Button -->
+			<a href="Ankur_Kumar_Pandey_Resume.pdf" 
+				 download 
+				 class="btn btn-success rounded-pill px-4 d-flex align-items-center gap-2"
+				 title="Download Resume">
+				<i class="bi bi-download"></i> Resume
+			</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- ========== NAVIGATION ========== -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm sticky-top">
+    <div class="container">
+      <a class="navbar-brand fw-semibold" href="#">Ankur Pandey</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#problem-solving">Problem Solving</a></li>
+          <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ========== ABOUT ========== -->
+  <section id="about" class="py-5">
+    <div class="container">
+      <h2 class="section-title">Professional Summary</h2>
+      <div class="card p-4 shadow-sm">
+        <p class="mb-3">
+          Data Engineer with <strong>5+ years</strong> of experience designing, building, and optimising enterprise-grade data pipelines using Microsoft Azure (Data Factory, Databricks, ADLS Gen2), Azure DevOps, SQL and NoSQL technologies.
+        </p>
+        <p class="mb-3">
+          Proven expertise in translating complex business requirements into scalable, <strong>metadata-driven ETL/ELT solutions</strong>. Delivered data engineering solutions for a major European enterprise while based in Amsterdam.
+        </p>
+        <p class="mb-0">
+          Currently looking for Data Engineer / Azure Data Engineer roles in the Netherlands.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== EXPERIENCE ========== -->
+  <section id="experience" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="section-title">Experience</h2>
+
+      <!-- Data Engineer -->
+      <div class="card p-4 mb-4 shadow-sm">
+        <div class="d-flex flex-wrap justify-content-between align-items-start mb-2">
+          <div>
+            <h5 class="fw-bold mb-1">Data Engineer</h5>
+            <p class="text-primary mb-0">Infosys · Amsterdam</p>
+          </div>
+          <span class="badge bg-secondary">May 2023 – Present</span>
+        </div>
+        <ul class="mb-0 mt-3">
+          <li>Designed and implemented data integration solutions using Azure Data Factory for efficient and scalable workflows.</li>
+          <li>Developed and maintained a metadata-driven ingestion framework to move, transform and load data into ADLS Gen2 and Azure SQL Data Warehouse.</li>
+          <li>Leveraged Azure Databricks (PySpark) for data processing, analysis and performance optimisation.</li>
+		  <li>Created a data anonymization framework to generate the test data.</li>
+          <li>Created Azure DevOps pipelines for SQL code deployment.</li>
+          <li>Built a metadata-driven framework to model source tables, generate files in different formats and deliver them to third parties for Transaction Monitoring.</li>
+          <li>Implemented automation for sequential file delivery using REST API, saving <strong>0.5 FTE</strong>.</li>
+          <li>Created a fully metadata-driven generic file loader framework.</li>
+          <li>Built Power BI reports for monitoring logs and source data dependency.</li>
+          <li><strong>Managed stakeholders and led a small team of 3 members</strong> while delivering data engineering solutions.</li>
+        </ul>
+      </div>
+
+      <!-- NoSQL DBA -->
+      <div class="card p-4 mb-4 shadow-sm">
+        <div class="d-flex flex-wrap justify-content-between align-items-start mb-2">
+          <div>
+            <h5 class="fw-bold mb-1">NoSQL Database Administrator</h5>
+            <p class="text-primary mb-0">Infosys</p>
+          </div>
+          <span class="badge bg-secondary">June 2021 – April 2023</span>
+        </div>
+        <ul class="mb-0 mt-3">
+          <li>Development and administration level knowledge for MongoDB.</li>
+          <li>Designed monitoring and health-check frameworks using Python-based automation.</li>
+          <li>Optimised database performance through indexing, query analysis and capacity planning.</li>
+          <li>Implemented secure data management practices including SSL/TLS, backup strategies and disaster recovery.</li>
+        </ul>
+      </div>
+
+      <!-- Big Data Developer -->
+      <div class="card p-4 mb-4 shadow-sm">
+        <div class="d-flex flex-wrap justify-content-between align-items-start mb-2">
+          <div>
+            <h5 class="fw-bold mb-1">Big Data Developer</h5>
+            <p class="text-primary mb-0">Infosys</p>
+          </div>
+          <span class="badge bg-secondary">Feb 2021 – May 2021</span>
+        </div>
+        <ul class="mb-0 mt-3">
+          <li>Worked on cleaning and processing of data using Pig, Hive and SparkSQL.</li>
+          <li>Used MongoDB queries to clean, transform and load data.</li>
+        </ul>
+      </div>
+
+      <!-- Intern -->
+      <div class="card p-4 shadow-sm">
+        <div class="d-flex flex-wrap justify-content-between align-items-start mb-2">
+          <div>
+            <h5 class="fw-bold mb-1">Backend Developer Intern</h5>
+            <p class="text-primary mb-0">Crio.Do</p>
+          </div>
+          <span class="badge bg-secondary">Jan 2020 – April 2020</span>
+        </div>
+        <ul class="mb-0 mt-3">
+          <li>Worked on CrioDo applications: QBox, QMoney and QPrep.</li>
+          <li>Problem solving using Java, REST APIs, Linux, OS & Networking concepts, Gradle and DSA.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== SKILLS ========== -->
+  <section id="skills" class="py-5">
+    <div class="container">
+      <h2 class="section-title">Technical Skills</h2>
+      <div class="row g-4">
+        <div class="col-md-6 col-lg-3">
+          <div class="card h-100 p-3">
+            <h6 class="fw-bold mb-3">Azure Stack</h6>
+            <div class="d-flex flex-wrap gap-2">
+              <span class="badge badge-skill">Azure Data Factory</span>
+              <span class="badge badge-skill">Azure Databricks</span>
+              <span class="badge badge-skill">ADLS Gen2</span>
+              <span class="badge badge-skill">Azure SQL</span>
+              <span class="badge badge-skill">Azure DevOps</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="card h-100 p-3">
+            <h6 class="fw-bold mb-3">Programming</h6>
+            <div class="d-flex flex-wrap gap-2">
+              <span class="badge badge-skill">Python</span>
+              <span class="badge badge-skill">PySpark</span>
+              <span class="badge badge-skill">SQL</span>
+              <span class="badge badge-skill">C++</span>
+              <span class="badge badge-skill">JavaScript</span>
+              <span class="badge badge-skill">Unix/Bash</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="card h-100 p-3">
+            <h6 class="fw-bold mb-3">Databases</h6>
+            <div class="d-flex flex-wrap gap-2">
+              <span class="badge badge-skill">SQL</span>
+              <span class="badge badge-skill">MongoDB</span>
+              <span class="badge badge-skill">PostgreSQL</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="card h-100 p-3">
+            <h6 class="fw-bold mb-3">Tools & Others</h6>
+            <div class="d-flex flex-wrap gap-2">
+              <span class="badge badge-skill">Apache Airflow</span>
+              <span class="badge badge-skill">Docker</span>
+              <span class="badge badge-skill">Git / GitHub</span>
+              <span class="badge badge-skill">Power BI</span>
+              <span class="badge badge-skill">DSA</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== PROJECTS ========== -->
+  <section id="projects" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="section-title">Projects</h2>
+      <div class="row g-4">
+        <div class="col-md-6">
+          <div class="card h-100 p-4">
+            <h5 class="fw-bold">ETL with Apache Airflow + PostgreSQL</h5>
+            <p class="text-muted">
+              End-to-end ETL pipeline orchestrated with Apache Airflow, containerised using Docker, and loading data into PostgreSQL. Demonstrates modern data engineering practices.
+            </p>
+            <a href="https://github.com/ankurp187/ETL_with_Airflow" target="_blank" class="stretched-link">View on GitHub →</a>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card h-100 p-4">
+            <h5 class="fw-bold">Crio.Do Backend Projects</h5>
+            <p class="text-muted">
+              Built and contributed to QBox, QMoney and QPrep applications. Focused on Java, REST APIs, Linux, Networking, Gradle and Data Structures & Algorithms.
+            </p>
+            <a href="https://criodo.github.io/Crio-Launch-Feb-2020-ankurp187/" target="_blank" class="stretched-link">View Portfolio →</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== PROBLEM SOLVING ========== -->
+  <section id="problem-solving" class="py-5">
+    <div class="container">
+      <h2 class="section-title">Problem Solving</h2>
+      <div class="row g-4 text-center">
+        <div class="col-md-4">
+          <div class="card p-4 h-100">
+            <h4 class="text-primary">HackerRank</h4>
+            <p class="mb-2">Problem Solving</p>
+            <a href="https://www.hackerrank.com/profile/ankurp187" target="_blank" class="btn btn-outline-primary btn-sm">View Profile</a>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card p-4 h-100">
+            <h4 class="text-primary">LeetCode</h4>
+            <p class="mb-2">Add your stats here</p>
+            <a href="#" class="btn btn-outline-primary btn-sm">View Profile</a>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card p-4 h-100">
+            <h4 class="text-primary">DSA</h4>
+            <p class="mb-0">Strong foundation in Data Structures & Algorithms</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== EDUCATION ========== -->
+  <section id="education" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="section-title">Education & Certifications</h2>
+      <div class="row g-4">
+        <div class="col-md-6">
+          <div class="card p-4 h-100">
+            <h5 class="fw-bold mb-3">Education</h5>
+            <p class="fw-semibold mb-1">B.Tech – Computer Engineering</p>
+            <p class="text-muted mb-1">Guru Gobind Singh Indraprastha University</p>
+            <p class="small text-muted">2016 – 2020 · CGPA: 8.3/10</p>
+            <hr>
+            <p class="fw-semibold mb-1">Senior Secondary</p>
+			<p class="text-muted mb-1">Govt. Sarvodaya Co-Ed Vidyalaya</p>
+            <p class="small text-muted">2013 – 2015 · 89.8%</p>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card p-4 h-70">
+            <h5 class="fw-bold mb-3">Certifications</h5>
+            <p class="fw-semibold mb-1">Microsoft DP-203</p>
+            <p class="text-muted small mb-3">Azure Data Engineer Associate</p>
+            <p class="fw-semibold mb-1">Databricks Data Engineer Associate</p>
+          </div>
+		  <div class="card p-4 h-30">
+            <h5 class="fw-bold mb-3">Languages</h5>
+            <p class="text-muted">English (Professional)</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CONTACT ========== -->
+  <section id="contact" class="py-5">
+    <div class="container text-center">
+      <h2 class="section-title">Let’s Connect</h2>
+      <p class="text-muted mb-4" style="max-width: 500px; margin: 0 auto;">
+        Based in Almere and available for Data Engineer roles across the Netherlands.
+      </p>
+      <div class="d-flex justify-content-center gap-3 flex-wrap">
+        <a href="mailto:ankurp187@gmail.com" class="btn btn-primary px-4">
+          <i class="bi bi-envelope me-2"></i> ankurp187@gmail.com
+        </a>
+        <a href="tel:+31657164443" class="btn btn-dark px-4">
+          <i class="bi bi-telephone me-2"></i> +31 657 164 443
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="py-4 text-white text-center">
+    <div class="container">
+      <p class="fw-semibold mb-1">Ankur Kumar Pandey</p>
+      <p class="small opacity-75 mb-3">Data Engineer · Almere, Netherlands</p>
+      <div class="d-flex justify-content-center gap-4 mb-3">
+        <a href="https://www.linkedin.com/in/ankur-pandey-331077175/" target="_blank" class="text-info text-decoration-none">LinkedIn</a>
+        <a href="https://github.com/ankurp187" target="_blank" class="text-info text-decoration-none">GitHub</a>
+        <a href="mailto:ankurp187@gmail.com" class="text-info text-decoration-none">Email</a>
+      </div>
+      <p class="small opacity-50 mb-0">© 2026 Ankur Kumar Pandey</p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
